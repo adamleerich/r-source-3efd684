@@ -37,6 +37,21 @@ mark rbuild
 ```
 
 
+
+### Rmath standalone build
+
+```sh
+# From ./src/nmath/standalone
+make -F Makefile.win
+make -F Makefile.win test.exe
+make -F Makefile.win test-static.exe
+```
+
+
+
+
+
+
 ## Notes on `make`
 
 
